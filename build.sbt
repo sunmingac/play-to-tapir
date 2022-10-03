@@ -10,8 +10,8 @@ scalaVersion := "2.13.9"
 libraryDependencies += guice
 libraryDependencies ++= Seq(
   "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test,
-  "com.softwaremill.sttp.tapir" %% "tapir-play-server" % "1.0.0",
-  "com.softwaremill.sttp.tapir" %% "tapir-swagger-ui-bundle" % "1.0.0"
+  "com.softwaremill.sttp.tapir" %% "tapir-play-server" % "1.1.2",
+  "com.softwaremill.sttp.tapir" %% "tapir-swagger-ui-bundle" % "1.1.2"
 )
 
 // Adds additional packages into Twirl
